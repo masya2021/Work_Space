@@ -1,1 +1,9 @@
-@import "./styles/default.css";
+@import "styles/normalize.css";
+@import "styles/fonts.css";
+@import "styles/default.css";
+
+@import "styles/header.css";
+@import "styles/hero.css";
+@import "styles/hero.css";
+@import "styles/hero.css";
+@import "styles/footer.css";

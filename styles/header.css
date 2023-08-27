@@ -1,0 +1,14 @@
+.header {
+  padding: 40px 0;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+   padding: 12px 32px;
+   border-radius: 8px;
+   background-color: #a6adff;
+   font-size: 20px;
+}
