@@ -1,9 +1,17 @@
 @import "styles/normalize.css";
+
+@import "styles/choices.min.css";
+
 @import "styles/fonts.css";
 @import "styles/default.css";
 
 @import "styles/header.css";
 @import "styles/hero.css";
-@import "styles/hero.css";
-@import "styles/hero.css";
+@import "styles/vacancies.css";
+@import "styles/filter.css";
+@import "styles/choices.css";
+@import "styles/checkbox.css";
+
+@import "styles/cards.css";
+@import "styles/vacancy.css";
 @import "styles/footer.css";
