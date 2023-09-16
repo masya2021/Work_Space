@@ -1,13 +1,17 @@
 .vacancy {
-  background-color: aquamarine;
-}
-
-.vacancy {
   padding: 16px;
   border-radius: 16px;
   background-color: #fff;
   height: 100%;
   cursor: pointer;
+  outline: none;
+  border: 2px solid transparent;
+}
+.vacancy:hover {
+  background-color: #f9faff;
+}
+.vacancy:focus-visible {
+  border-color: #a6adff;
 }
 .vacancy__img {
   max-height: 44px;
@@ -24,7 +28,8 @@
   font-size: 14px;
   font-weight: 400;
   border-radius: 4px;
-  background: #eaecff;
+  background-color: #eaecff;
+  margin-bottom: 8px;
 }
 .vacancy__field {
   color: #ccc;

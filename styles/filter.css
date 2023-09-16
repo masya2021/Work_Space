@@ -57,4 +57,44 @@
   padding: 8px 24px;
   border-radius: 4px;
   background-color: #a6adff;
+  border: 2px solid transparent;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.filter__button:focus-visible {
+  border-color: #4f58be;
+}
+
+.filter__button:hover {
+  color: #fff;
+  background-color: #2a18ff;
+}
+
+@media (max-width: 940px) {
+  .filter__title {
+    position: fixed;
+    transform: scale(0);
+  }
+
+  .filter__input {
+    max-width: 140px;
+  }
+
+  .filter__checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px 70px;
+  }
+
+  .filter__buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .filter__reset {
+    position: static;
+  }
 }
